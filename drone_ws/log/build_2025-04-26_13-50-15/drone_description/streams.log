@@ -1,0 +1,21 @@
+[0.055s] Invoking command in '/home/moulik/drone_ws/build/drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moulik/drone_ws/install/drone_navigation:/home/moulik/drone_ws/install/car_navigation:/opt/ros/humble /usr/bin/cmake --build /home/moulik/drone_ws/build/drone_description -- -j1 -l1
+[0.255s] Invoked command in '/home/moulik/drone_ws/build/drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moulik/drone_ws/install/drone_navigation:/home/moulik/drone_ws/install/car_navigation:/opt/ros/humble /usr/bin/cmake --build /home/moulik/drone_ws/build/drone_description -- -j1 -l1
+[0.267s] Invoking command in '/home/moulik/drone_ws/build/drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moulik/drone_ws/install/drone_navigation:/home/moulik/drone_ws/install/car_navigation:/opt/ros/humble /usr/bin/cmake --install /home/moulik/drone_ws/build/drone_description
+[0.281s] -- Install configuration: ""
+[0.281s] -- Execute custom install script
+[0.281s] -- Up-to-date symlink: /home/moulik/drone_ws/install/drone_description/share/ament_index/resource_index/package_run_dependencies/drone_description
+[0.282s] -- Up-to-date symlink: /home/moulik/drone_ws/install/drone_description/share/ament_index/resource_index/parent_prefix_path/drone_description
+[0.283s] -- Up-to-date symlink: /home/moulik/drone_ws/install/drone_description/share/drone_description/environment/ament_prefix_path.sh
+[0.283s] -- Up-to-date symlink: /home/moulik/drone_ws/install/drone_description/share/drone_description/environment/ament_prefix_path.dsv
+[0.283s] -- Up-to-date symlink: /home/moulik/drone_ws/install/drone_description/share/drone_description/environment/path.sh
+[0.284s] -- Up-to-date symlink: /home/moulik/drone_ws/install/drone_description/share/drone_description/environment/path.dsv
+[0.284s] -- Up-to-date symlink: /home/moulik/drone_ws/install/drone_description/share/drone_description/local_setup.bash
+[0.284s] -- Up-to-date symlink: /home/moulik/drone_ws/install/drone_description/share/drone_description/local_setup.sh
+[0.285s] -- Up-to-date symlink: /home/moulik/drone_ws/install/drone_description/share/drone_description/local_setup.zsh
+[0.285s] -- Up-to-date symlink: /home/moulik/drone_ws/install/drone_description/share/drone_description/local_setup.dsv
+[0.286s] -- Symlinking: /home/moulik/drone_ws/install/drone_description/share/drone_description/package.dsv
+[0.306s] -- Up-to-date symlink: /home/moulik/drone_ws/install/drone_description/share/ament_index/resource_index/packages/drone_description
+[0.307s] -- Up-to-date symlink: /home/moulik/drone_ws/install/drone_description/share/drone_description/cmake/drone_descriptionConfig.cmake
+[0.307s] -- Up-to-date symlink: /home/moulik/drone_ws/install/drone_description/share/drone_description/cmake/drone_descriptionConfig-version.cmake
+[0.307s] -- Up-to-date symlink: /home/moulik/drone_ws/install/drone_description/share/drone_description/package.xml
+[0.313s] Invoked command in '/home/moulik/drone_ws/build/drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moulik/drone_ws/install/drone_navigation:/home/moulik/drone_ws/install/car_navigation:/opt/ros/humble /usr/bin/cmake --install /home/moulik/drone_ws/build/drone_description

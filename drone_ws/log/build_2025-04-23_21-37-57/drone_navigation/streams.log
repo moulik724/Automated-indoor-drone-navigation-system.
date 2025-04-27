@@ -1,0 +1,21 @@
+[3.545s] Invoking command in '/home/moulik/drone_ws/src/drone_navigation': PYTHONPATH=/home/moulik/drone_ws/build/drone_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moulik/drone_ws/install/drone_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_navigation build --build-base /home/moulik/drone_ws/build/drone_navigation/build install --record /home/moulik/drone_ws/build/drone_navigation/install.log --single-version-externally-managed install_data
+[4.085s] running egg_info
+[4.085s] writing ../../build/drone_navigation/drone_navigation.egg-info/PKG-INFO
+[4.085s] writing dependency_links to ../../build/drone_navigation/drone_navigation.egg-info/dependency_links.txt
+[4.086s] writing entry points to ../../build/drone_navigation/drone_navigation.egg-info/entry_points.txt
+[4.087s] writing requirements to ../../build/drone_navigation/drone_navigation.egg-info/requires.txt
+[4.087s] writing top-level names to ../../build/drone_navigation/drone_navigation.egg-info/top_level.txt
+[4.089s] reading manifest file '../../build/drone_navigation/drone_navigation.egg-info/SOURCES.txt'
+[4.100s] writing manifest file '../../build/drone_navigation/drone_navigation.egg-info/SOURCES.txt'
+[4.100s] running build
+[4.100s] running build_py
+[4.103s] running install
+[4.103s] running install_lib
+[4.110s] running install_data
+[4.116s] running install_egg_info
+[4.117s] removing '/home/moulik/drone_ws/install/drone_navigation/lib/python3.10/site-packages/drone_navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[4.117s] Copying ../../build/drone_navigation/drone_navigation.egg-info to /home/moulik/drone_ws/install/drone_navigation/lib/python3.10/site-packages/drone_navigation-0.0.0-py3.10.egg-info
+[4.134s] running install_scripts
+[4.160s] Installing navigation_node script to /home/moulik/drone_ws/install/drone_navigation/lib/drone_navigation
+[4.164s] writing list of installed files to '/home/moulik/drone_ws/build/drone_navigation/install.log'
+[4.229s] Invoked command in '/home/moulik/drone_ws/src/drone_navigation' returned '0': PYTHONPATH=/home/moulik/drone_ws/build/drone_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moulik/drone_ws/install/drone_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_navigation build --build-base /home/moulik/drone_ws/build/drone_navigation/build install --record /home/moulik/drone_ws/build/drone_navigation/install.log --single-version-externally-managed install_data

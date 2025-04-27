@@ -1,0 +1,15 @@
+/home/moulik/drone_ws/install/drone_description/share/ament_index/resource_index/package_run_dependencies/drone_description
+/home/moulik/drone_ws/install/drone_description/share/ament_index/resource_index/parent_prefix_path/drone_description
+/home/moulik/drone_ws/install/drone_description/share/drone_description/environment/ament_prefix_path.sh
+/home/moulik/drone_ws/install/drone_description/share/drone_description/environment/ament_prefix_path.dsv
+/home/moulik/drone_ws/install/drone_description/share/drone_description/environment/path.sh
+/home/moulik/drone_ws/install/drone_description/share/drone_description/environment/path.dsv
+/home/moulik/drone_ws/install/drone_description/share/drone_description/local_setup.bash
+/home/moulik/drone_ws/install/drone_description/share/drone_description/local_setup.sh
+/home/moulik/drone_ws/install/drone_description/share/drone_description/local_setup.zsh
+/home/moulik/drone_ws/install/drone_description/share/drone_description/local_setup.dsv
+/home/moulik/drone_ws/install/drone_description/share/drone_description/package.dsv
+/home/moulik/drone_ws/install/drone_description/share/ament_index/resource_index/packages/drone_description
+/home/moulik/drone_ws/install/drone_description/share/drone_description/cmake/drone_descriptionConfig.cmake
+/home/moulik/drone_ws/install/drone_description/share/drone_description/cmake/drone_descriptionConfig-version.cmake
+/home/moulik/drone_ws/install/drone_description/share/drone_description/package.xml

@@ -1,0 +1,19 @@
+[1.093s] Invoking command in '/home/moulik/drone_ws/build/drone_navigation': PYTHONPATH=/home/moulik/drone_ws/build/drone_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moulik/drone_ws/install/drone_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/moulik/drone_ws/build/drone_navigation/build --no-deps symlink_data --force
+[1.374s] running develop
+[1.518s] running egg_info
+[1.518s] writing drone_navigation.egg-info/PKG-INFO
+[1.521s] writing dependency_links to drone_navigation.egg-info/dependency_links.txt
+[1.521s] writing entry points to drone_navigation.egg-info/entry_points.txt
+[1.521s] writing requirements to drone_navigation.egg-info/requires.txt
+[1.522s] writing top-level names to drone_navigation.egg-info/top_level.txt
+[1.524s] reading manifest file 'drone_navigation.egg-info/SOURCES.txt'
+[1.525s] writing manifest file 'drone_navigation.egg-info/SOURCES.txt'
+[1.527s] running build_ext
+[1.527s] Creating /home/moulik/drone_ws/install/drone_navigation/lib/python3.10/site-packages/drone-navigation.egg-link (link to .)
+[1.528s] Installing navigation_node script to /home/moulik/drone_ws/install/drone_navigation/lib/drone_navigation
+[1.530s] 
+[1.530s] Installed /home/moulik/drone_ws/build/drone_navigation
+[1.530s] running symlink_data
+[1.531s] symbolically linking /home/moulik/drone_ws/build/drone_navigation/resource/drone_navigation -> /home/moulik/drone_ws/install/drone_navigation/share/ament_index/resource_index/packages
+[1.531s] symbolically linking /home/moulik/drone_ws/build/drone_navigation/package.xml -> /home/moulik/drone_ws/install/drone_navigation/share/drone_navigation
+[1.601s] Invoked command in '/home/moulik/drone_ws/build/drone_navigation' returned '0': PYTHONPATH=/home/moulik/drone_ws/build/drone_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moulik/drone_ws/install/drone_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/moulik/drone_ws/build/drone_navigation/build --no-deps symlink_data --force

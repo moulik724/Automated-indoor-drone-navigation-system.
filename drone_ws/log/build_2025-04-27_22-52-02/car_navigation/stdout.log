@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/car_navigation/drone_navigation.egg-info
+writing ../../build/car_navigation/drone_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/car_navigation/drone_navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/car_navigation/drone_navigation.egg-info/entry_points.txt
+writing requirements to ../../build/car_navigation/drone_navigation.egg-info/requires.txt
+writing top-level names to ../../build/car_navigation/drone_navigation.egg-info/top_level.txt
+writing manifest file '../../build/car_navigation/drone_navigation.egg-info/SOURCES.txt'
+reading manifest file '../../build/car_navigation/drone_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/car_navigation/drone_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/moulik/drone_ws/build/car_navigation/build/lib/drone_navigation
+copying drone_navigation/obstacle_avoidance.py -> /home/moulik/drone_ws/build/car_navigation/build/lib/drone_navigation
+copying drone_navigation/__init__.py -> /home/moulik/drone_ws/build/car_navigation/build/lib/drone_navigation
+running install
+running install_lib
+creating /home/moulik/drone_ws/install/car_navigation/lib/python3.10/site-packages/drone_navigation
+copying /home/moulik/drone_ws/build/car_navigation/build/lib/drone_navigation/obstacle_avoidance.py -> /home/moulik/drone_ws/install/car_navigation/lib/python3.10/site-packages/drone_navigation
+copying /home/moulik/drone_ws/build/car_navigation/build/lib/drone_navigation/__init__.py -> /home/moulik/drone_ws/install/car_navigation/lib/python3.10/site-packages/drone_navigation
+byte-compiling /home/moulik/drone_ws/install/car_navigation/lib/python3.10/site-packages/drone_navigation/obstacle_avoidance.py to obstacle_avoidance.cpython-310.pyc
+byte-compiling /home/moulik/drone_ws/install/car_navigation/lib/python3.10/site-packages/drone_navigation/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/drone_navigation -> /home/moulik/drone_ws/install/car_navigation/share/ament_index/resource_index/packages
+creating /home/moulik/drone_ws/install/car_navigation/share/drone_navigation
+copying package.xml -> /home/moulik/drone_ws/install/car_navigation/share/drone_navigation
+running install_egg_info
+Copying ../../build/car_navigation/drone_navigation.egg-info to /home/moulik/drone_ws/install/car_navigation/lib/python3.10/site-packages/drone_navigation-0.0.0-py3.10.egg-info
+running install_scripts
+Installing obstacle_avoidance script to /home/moulik/drone_ws/install/car_navigation/lib/car_navigation
+writing list of installed files to '/home/moulik/drone_ws/build/car_navigation/install.log'

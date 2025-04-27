@@ -1,0 +1,4 @@
+Invoking command in '/home/moulik/drone_ws/build/drone_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moulik/drone_ws/build/drone_sim -- -j1 -l1
+Invoked command in '/home/moulik/drone_ws/build/drone_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moulik/drone_ws/build/drone_sim -- -j1 -l1
+Invoking command in '/home/moulik/drone_ws/build/drone_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moulik/drone_ws/build/drone_sim
+Invoked command in '/home/moulik/drone_ws/build/drone_sim' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moulik/drone_ws/build/drone_sim

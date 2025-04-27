@@ -1,0 +1,5 @@
+  File "/home/moulik/drone_ws/install/car_navigation/lib/python3.10/site-packages/car_navigation/obstacle_avoidance.py", line 59
+    self.get_logger().info(/flight time exceeded. stopping the drone.')
+                                                                     ^
+SyntaxError: unterminated string literal (detected at line 59)
+

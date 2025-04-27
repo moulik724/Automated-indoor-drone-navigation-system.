@@ -1,0 +1,25 @@
+[0.009s] Invoking command in '/home/moulik/drone_ws/build/drone_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moulik/drone_ws/build/drone_sim -- -j1 -l1
+[0.097s] Invoked command in '/home/moulik/drone_ws/build/drone_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moulik/drone_ws/build/drone_sim -- -j1 -l1
+[0.102s] Invoking command in '/home/moulik/drone_ws/build/drone_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moulik/drone_ws/build/drone_sim
+[0.117s] -- Install configuration: ""
+[0.118s] -- Up-to-date: /home/moulik/drone_ws/install/drone_sim/lib/drone_sim/simple_control.py
+[0.118s] -- Up-to-date: /home/moulik/drone_ws/install/drone_sim/share/drone_sim
+[0.119s] -- Up-to-date: /home/moulik/drone_ws/install/drone_sim/share/drone_sim/sim_world.launch.py
+[0.120s] -- Up-to-date: /home/moulik/drone_ws/install/drone_sim/share/drone_sim/urdf
+[0.121s] -- Up-to-date: /home/moulik/drone_ws/install/drone_sim/share/drone_sim/urdf/drone.urdf.xacro
+[0.121s] -- Up-to-date: /home/moulik/drone_ws/install/drone_sim/share/ament_index/resource_index/package_run_dependencies/drone_sim
+[0.122s] -- Up-to-date: /home/moulik/drone_ws/install/drone_sim/share/ament_index/resource_index/parent_prefix_path/drone_sim
+[0.123s] -- Up-to-date: /home/moulik/drone_ws/install/drone_sim/share/drone_sim/environment/ament_prefix_path.sh
+[0.123s] -- Up-to-date: /home/moulik/drone_ws/install/drone_sim/share/drone_sim/environment/ament_prefix_path.dsv
+[0.123s] -- Up-to-date: /home/moulik/drone_ws/install/drone_sim/share/drone_sim/environment/path.sh
+[0.123s] -- Up-to-date: /home/moulik/drone_ws/install/drone_sim/share/drone_sim/environment/path.dsv
+[0.123s] -- Up-to-date: /home/moulik/drone_ws/install/drone_sim/share/drone_sim/local_setup.bash
+[0.123s] -- Up-to-date: /home/moulik/drone_ws/install/drone_sim/share/drone_sim/local_setup.sh
+[0.123s] -- Up-to-date: /home/moulik/drone_ws/install/drone_sim/share/drone_sim/local_setup.zsh
+[0.127s] -- Up-to-date: /home/moulik/drone_ws/install/drone_sim/share/drone_sim/local_setup.dsv
+[0.127s] -- Installing: /home/moulik/drone_ws/install/drone_sim/share/drone_sim/package.dsv
+[0.129s] -- Up-to-date: /home/moulik/drone_ws/install/drone_sim/share/ament_index/resource_index/packages/drone_sim
+[0.131s] -- Up-to-date: /home/moulik/drone_ws/install/drone_sim/share/drone_sim/cmake/drone_simConfig.cmake
+[0.131s] -- Up-to-date: /home/moulik/drone_ws/install/drone_sim/share/drone_sim/cmake/drone_simConfig-version.cmake
+[0.131s] -- Up-to-date: /home/moulik/drone_ws/install/drone_sim/share/drone_sim/package.xml
+[0.137s] Invoked command in '/home/moulik/drone_ws/build/drone_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moulik/drone_ws/build/drone_sim

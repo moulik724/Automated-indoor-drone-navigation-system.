@@ -1,0 +1,3 @@
+[console_scripts]
+obstacle_avoidance = drone_navigation.obstacle_avoidance:main
+

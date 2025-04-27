@@ -1,0 +1,3 @@
+[console_scripts]
+obstacle_avoidance = car_navigation.obstacle_avoidance:main
+

@@ -1,0 +1,21 @@
+[3.235s] Invoking command in '/home/moulik/drone_ws/src/car_navigation': PYTHONPATH=/home/moulik/drone_ws/build/car_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moulik/drone_ws/install/car_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_navigation build --build-base /home/moulik/drone_ws/build/car_navigation/build install --record /home/moulik/drone_ws/build/car_navigation/install.log --single-version-externally-managed install_data
+[3.766s] running egg_info
+[3.767s] writing ../../build/car_navigation/car_navigation.egg-info/PKG-INFO
+[3.771s] writing dependency_links to ../../build/car_navigation/car_navigation.egg-info/dependency_links.txt
+[3.771s] writing entry points to ../../build/car_navigation/car_navigation.egg-info/entry_points.txt
+[3.771s] writing requirements to ../../build/car_navigation/car_navigation.egg-info/requires.txt
+[3.771s] writing top-level names to ../../build/car_navigation/car_navigation.egg-info/top_level.txt
+[3.795s] reading manifest file '../../build/car_navigation/car_navigation.egg-info/SOURCES.txt'
+[3.795s] writing manifest file '../../build/car_navigation/car_navigation.egg-info/SOURCES.txt'
+[3.796s] running build
+[3.796s] running build_py
+[3.820s] running install
+[3.820s] running install_lib
+[3.825s] running install_data
+[3.846s] running install_egg_info
+[3.846s] removing '/home/moulik/drone_ws/install/car_navigation/lib/python3.10/site-packages/car_navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[3.846s] Copying ../../build/car_navigation/car_navigation.egg-info to /home/moulik/drone_ws/install/car_navigation/lib/python3.10/site-packages/car_navigation-0.0.0-py3.10.egg-info
+[3.846s] running install_scripts
+[3.877s] Installing obstacle_avoidance script to /home/moulik/drone_ws/install/car_navigation/lib/car_navigation
+[3.905s] writing list of installed files to '/home/moulik/drone_ws/build/car_navigation/install.log'
+[3.962s] Invoked command in '/home/moulik/drone_ws/src/car_navigation' returned '0': PYTHONPATH=/home/moulik/drone_ws/build/car_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moulik/drone_ws/install/car_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_navigation build --build-base /home/moulik/drone_ws/build/car_navigation/build install --record /home/moulik/drone_ws/build/car_navigation/install.log --single-version-externally-managed install_data

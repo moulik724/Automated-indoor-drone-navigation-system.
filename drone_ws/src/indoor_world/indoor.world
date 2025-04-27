@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <world name="indoor_world">
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+      <gravity>0 0 -9.8</gravity>
+      <ode>
+        <solver>
+          <type>quick</type>
+          <iters>100</iters>
+        </solver>
+      </ode>
+    </physics>
+
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Sun</uri>
+    </include>
+
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Chair</uri>
+      <pose>2.5 -0.3 0 0 0 3.0</pose>
+    </include>
+
+    <!-- Expanded Floor -->
+    <model name="floor">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>10 10 0.1</size></box></geometry>
+          <material><ambient>0.5 0.5 0.5 1</ambient><diffuse>0.5 0.5 0.5 1</diffuse></material>
+        </visual>
+        <collision name="collision">
+          <geometry><box><size>10 10 0.1</size></box></geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>100</mu>
+                <mu2>50</mu2>
+              </ode>
+            </friction>
+            <contact>
+              <ode>
+                <kp>1e5</kp>
+                <kd>1</kd>
+              </ode>
+            </contact>
+          </surface>
+        </collision>
+        <pose>0 0 -0.05 0 0 0</pose>
+      </link>
+    </model>
+
+    <!-- Adjusted Walls for Larger Room with Yellow Color -->
+    <model name="wall1"><static>true</static><link name="link">
+      <visual name="visual">
+        <geometry><box><size>10 0.1 2</size></box></geometry>
+        <material><ambient>1.0 1.0 0.0 1</ambient><diffuse>1.0 1.0 0.0 1</diffuse></material>
+      </visual>
+      <collision name="collision"><geometry><box><size>10 0.1 3</size></box></geometry></collision>
+      <pose>0 5 0.5 0 0 0</pose></link></model>
+    <model name="wall2"><static>true</static><link name="link">
+      <visual name="visual">
+        <geometry><box><size>10 0.1 2</size></box></geometry>
+        <material><ambient>1.0 1.0 0.0 1</ambient><diffuse>1.0 1.0 0.0 1</diffuse></material>
+      </visual>
+      <collision name="collision"><geometry><box><size>10 0.1 3</size></box></geometry></collision>
+      <pose>0 -5 0.5 0 0 0</pose></link></model>
+    <model name="wall3"><static>true</static><link name="link">
+      <visual name="visual">
+        <geometry><box><size>0.1 10 2</size></box></geometry>
+        <material><ambient>1.0 1.0 0.0 1</ambient><diffuse>1.0 1.0 0.0 1</diffuse></material>
+      </visual>
+      <collision name="collision"><geometry><box><size>0.1 10 3</size></box></geometry></collision>
+      <pose>5 0 0.5 0 0 0</pose></link></model>
+    <model name="wall4"><static>true</static><link name="link">
+      <visual name="visual">
+        <geometry><box><size>0.1 10 2</size></box></geometry>
+        <material><ambient>1.0 1.0 0.0 1</ambient><diffuse>1.0 1.0 0.0 1</diffuse></material>
+      </visual>
+      <collision name="collision"><geometry><box><size>0.1 10 3</size></box></geometry></collision>
+      <pose>-5 0 0.5 0 0 0</pose></link></model>
+
+    <!-- Four Pillars with Different Colors - RANDOMLY PLACED -->
+    <model name="pillar1">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder><radius>0.3</radius><length>2</length></cylinder></geometry>
+          <material><ambient>1.0 0.0 0.0 1</ambient><diffuse>1.0 0.0 0.0 1</diffuse></material>
+        </visual>
+        <collision name="collision"><geometry><cylinder><radius>0.3</radius><length>3</length></cylinder></geometry></collision>
+        <pose>0 0 0.5 0 0 0</pose>
+      </link>
+      <pose>1.7 -2.3 0 0 0 0</pose>
+    </model>
+
+    <model name="pillar2">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder><radius>0.3</radius><length>2</length></cylinder></geometry>
+          <material><ambient>0.0 0.0 1.0 1</ambient><diffuse>0.0 0.0 1.0 1</diffuse></material>
+        </visual>
+        <collision name="collision"><geometry><cylinder><radius>0.3</radius><length>3</length></cylinder></geometry></collision>
+        <pose>0 0 0.5 0 0 0</pose>
+      </link>
+      <pose>-4.1 0.8 0 0 0 0</pose>
+    </model>
+
+    <model name="pillar3">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder><radius>0.3</radius><length>2</length></cylinder></geometry>
+          <material><ambient>0.0 1.0 0.0 1</ambient><diffuse>0.0 1.0 0.0 1</diffuse></material>
+        </visual>
+        <collision name="collision"><geometry><cylinder><radius>0.3</radius><length>3</length></cylinder></geometry></collision>
+        <pose>0 0 0.5 0 0 0</pose>
+      </link>
+      <pose>2.5 2.1 0 0 0 0</pose>
+    </model>
+
+    <model name="pillar4">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder><radius>0.3</radius><length>2</length></cylinder></geometry>
+          <material><ambient>0.5 0.0 0.5 1</ambient><diffuse>0.5 0.0 0.5 1</diffuse></material>
+        </visual>
+        <collision name="collision"><geometry><cylinder><radius>0.3</radius><length>3</length></cylinder></geometry></collision>
+        <pose>0 0 0.5 0 0 0</pose>
+      </link>
+      <pose>-2.1 -3.9 0 0 0 0</pose>
+    </model>
+
+    
+
+    <plugin filename="libignition-gazebo-physics-system.so" name="ignition::gazebo::systems::Physics"/>
+    <plugin filename="libignition-gazebo-user-commands-system.so" name="ignition::gazebo::systems::UserCommands"/>
+    <plugin filename="libignition-gazebo-scene-broadcaster-system.so" name="ignition::gazebo::systems::SceneBroadcaster"/>
+    <plugin filename="libignition-gazebo-sensors-system.so" name="ignition::gazebo::systems::Sensors"/>
+  </world>
+</sdf>
